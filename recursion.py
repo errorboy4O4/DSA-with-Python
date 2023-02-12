@@ -1,5 +1,8 @@
 ########## RECURSION #########
 
+# In  recursion base condition and recursive relation is most important.
+# In Base condition it is important to write return statement.
+
 ####### Factorial ######
 
 def fact(n):

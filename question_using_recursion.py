@@ -35,6 +35,23 @@ def fib(n):
 a = fib(4)
 print(a)
 
+########### Count Ways To Climb N Stairs ################
+##### Using Recursion ######
+
+
+def cwtns(n):
+	if n < 0:
+		return 0
+	if n == 0:
+		return 1
+	return cwtns(n-1) + cwtns(n-2)
+
+a = cwtns(5)
+print(a)
+
+
+
+
 
 
 

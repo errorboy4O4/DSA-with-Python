@@ -50,7 +50,21 @@ a = cwtns(5)
 print(a)
 
 
+########### SORT A ARRAY USING RECURSION ################
 
+arr = [1,2,3,3,3]
+def sortrecur(arr):
+	n = len(arr)
+	if n == 0 or n == 1:
+		return True
+	if arr[0] > arr[1]:
+		return False
+	else:
+		return sortrecur(arr[1:])
+if sortrecur(arr):
+	print('Array is Sorted')
+else:
+	print("Array is not Sorted")
 
 
 

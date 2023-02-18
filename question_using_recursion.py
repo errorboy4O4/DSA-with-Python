@@ -50,7 +50,7 @@ a = cwtns(5)
 print(a)
 
 
-########### SORT A ARRAY USING RECURSION ################
+########### SORT A ARRAY ################
 ##### Using Recursion ######
 
 
@@ -70,7 +70,21 @@ else:
 
 
 
+########### SUM OF AN ARRAY  ################
+##### Using Recursion ######
 
+
+arr = [1,2,3,3,3]
+def sumrecur(arr):
+	n = len(arr)
+	if n == 0:
+		return 0
+	if n == 1:
+		return arr[0]
+	remainingpart = sumrecur(arr[1:])
+	return arr[0] + remainingpart
+# a = sumrecur(arr)
+# print(a)
 
 
 

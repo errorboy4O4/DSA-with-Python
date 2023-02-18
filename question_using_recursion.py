@@ -83,8 +83,8 @@ def sumrecur(arr):
 		return arr[0]
 	remainingpart = sumrecur(arr[1:])
 	return arr[0] + remainingpart
-# a = sumrecur(arr)
-# print(a)
+a = sumrecur(arr)
+print(a)
 
 
 

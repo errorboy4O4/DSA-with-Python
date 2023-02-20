@@ -71,7 +71,7 @@ else:
 
 
 ########### SUM OF AN ARRAY  ################
-##### Using Recursion ######
+##### Using Recursion #########
 
 
 arr = [1,2,3,3,3]
